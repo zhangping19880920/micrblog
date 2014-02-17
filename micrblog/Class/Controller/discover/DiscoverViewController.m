@@ -16,8 +16,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UILabel *label = [[UILabel alloc] init];
-    label.text = @"DiscoverViewController";
+    // 1.标题
+    self.title = @"广场";
 }
 
 @end

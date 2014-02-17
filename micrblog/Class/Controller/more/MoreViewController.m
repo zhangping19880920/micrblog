@@ -19,8 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UILabel *label = [[UILabel alloc] init];
-    label.text = @"MoreViewController";
+    // 1.标题
+    self.title = @"更多";
 }
 
 @end

@@ -16,7 +16,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UILabel *label = [[UILabel alloc] init];
-    label.text = @"SendStatusViewController";
+    // 0.设置标题
+    self.title = @"发微博";
 }
 @end

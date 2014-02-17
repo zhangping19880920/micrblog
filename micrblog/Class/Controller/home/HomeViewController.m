@@ -26,8 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UILabel *label = [[UILabel alloc] init];
-    label.text = @"HomeViewController";
+    // 1.标题
+    self.title = @"首页";
 }
 
 @end

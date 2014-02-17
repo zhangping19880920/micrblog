@@ -16,8 +16,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UILabel *label = [[UILabel alloc] init];
-    label.text = @"MessageViewController";
+    
+    // 1.标题
+    self.title = @"消息";
 }
 
 @end

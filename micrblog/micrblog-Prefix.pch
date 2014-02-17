@@ -14,3 +14,21 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#import "UIImage+Image.h"
+#import "NSString+File.h"
+#import "UIButton+Bg.h"
+#import "UIBarButtonItem+Create.h"
+
+// 判断是否为iPhone5
+#define iPhone5 ([UIScreen mainScreen].bounds.size.height == 568)
+
+// 自定义Log
+#ifdef DEBUG // 调试
+#define Loger(...) NSLog(__VA_ARGS__)
+#else // 发布打包
+#define Loger(...)
+#endif
+
+// 全局统一背景
+#define kGlobalBg [UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1]

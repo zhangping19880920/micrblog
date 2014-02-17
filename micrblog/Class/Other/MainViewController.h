@@ -1,5 +1,5 @@
 //
-//  ZPViewController.h
+//  MainViewController.h
 //  micrblog
 //
 //  Created by zhangping on 14-2-16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZPViewController : UIViewController
+@interface MainViewController : UIViewController
 
 @end

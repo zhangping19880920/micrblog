@@ -23,7 +23,7 @@
     
     NSString *currentVersion = [NSBundle mainBundle].infoDictionary[key];
     
-    if (![currentVersion isEqualToString:lastVersion]) {
+    if ([currentVersion isEqualToString:lastVersion]) {
         //used
         [self startWeibo:NO];
     }else{

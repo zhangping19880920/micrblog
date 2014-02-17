@@ -263,6 +263,14 @@
 		6D0C4CFC18B1E2A900D6352F /* ZPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4CFB18B1E1FB00D6352F /* ZPAppDelegate.m */; };
 		6D0C4D0118B1E4FF00D6352F /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D0018B1E4FF00D6352F /* NewFeatureViewController.m */; };
 		6D0C4D0418B1E78400D6352F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D0318B1E78400D6352F /* MainViewController.m */; };
+		6D0C4D2218B2040800D6352F /* Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D2118B2040800D6352F /* Dock.m */; };
+		6D0C4D2518B2041900D6352F /* DockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D2418B2041900D6352F /* DockItem.m */; };
+		6D0C4D2618B204E800D6352F /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D0718B2035B00D6352F /* DiscoverViewController.m */; };
+		6D0C4D2718B204E800D6352F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D0A18B2035B00D6352F /* HomeViewController.m */; };
+		6D0C4D2818B204E800D6352F /* SendStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D0C18B2035B00D6352F /* SendStatusViewController.m */; };
+		6D0C4D2918B204E800D6352F /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D0F18B2035B00D6352F /* MessageViewController.m */; };
+		6D0C4D2A18B204E800D6352F /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D1218B2035B00D6352F /* MoreViewController.m */; };
+		6D0C4D2B18B204E800D6352F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D1518B2035B00D6352F /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -543,6 +551,30 @@
 		6D0C4D0018B1E4FF00D6352F /* NewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureViewController.m; sourceTree = "<group>"; };
 		6D0C4D0218B1E78400D6352F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../../Other/MainViewController.h; sourceTree = "<group>"; };
 		6D0C4D0318B1E78400D6352F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../../Other/MainViewController.m; sourceTree = "<group>"; };
+		6D0C4D0618B2035B00D6352F /* DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		6D0C4D0718B2035B00D6352F /* DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		6D0C4D0918B2035B00D6352F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6D0C4D0A18B2035B00D6352F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6D0C4D0B18B2035B00D6352F /* SendStatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendStatusViewController.h; sourceTree = "<group>"; };
+		6D0C4D0C18B2035B00D6352F /* SendStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendStatusViewController.m; sourceTree = "<group>"; };
+		6D0C4D0E18B2035B00D6352F /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		6D0C4D0F18B2035B00D6352F /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		6D0C4D1118B2035B00D6352F /* MoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		6D0C4D1218B2035B00D6352F /* MoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		6D0C4D1418B2035B00D6352F /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		6D0C4D1518B2035B00D6352F /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		6D0C4D1718B2039200D6352F /* NSString+File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
+		6D0C4D1818B2039200D6352F /* NSString+File.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
+		6D0C4D1918B2039200D6352F /* UIBarButtonItem+Create.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Create.h"; sourceTree = "<group>"; };
+		6D0C4D1A18B2039200D6352F /* UIBarButtonItem+Create.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Create.m"; sourceTree = "<group>"; };
+		6D0C4D1B18B2039200D6352F /* UIButton+Bg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bg.h"; sourceTree = "<group>"; };
+		6D0C4D1C18B2039200D6352F /* UIButton+Bg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bg.m"; sourceTree = "<group>"; };
+		6D0C4D1D18B2039200D6352F /* UIImage+Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		6D0C4D1E18B2039200D6352F /* UIImage+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		6D0C4D2018B2040800D6352F /* Dock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dock.h; sourceTree = "<group>"; };
+		6D0C4D2118B2040800D6352F /* Dock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dock.m; sourceTree = "<group>"; };
+		6D0C4D2318B2041900D6352F /* DockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockItem.h; sourceTree = "<group>"; };
+		6D0C4D2418B2041900D6352F /* DockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -976,6 +1008,8 @@
 		6D0C4CEB18B1E0E600D6352F /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				6D0C4D1F18B203A900D6352F /* View */,
+				6D0C4D1618B2039100D6352F /* Category */,
 				6D0C4CFD18B1E4B400D6352F /* Controller */,
 				6D0C4CF918B1E1FB00D6352F /* Other */,
 				6D0C4CEC18B1E0E600D6352F /* Category */,
@@ -1010,6 +1044,11 @@
 		6D0C4CFD18B1E4B400D6352F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6D0C4D0518B2035B00D6352F /* discover */,
+				6D0C4D0818B2035B00D6352F /* home */,
+				6D0C4D0D18B2035B00D6352F /* message */,
+				6D0C4D1018B2035B00D6352F /* more */,
+				6D0C4D1318B2035B00D6352F /* profile */,
 				6D0C4CFE18B1E4D500D6352F /* Other */,
 			);
 			path = Controller;
@@ -1024,6 +1063,79 @@
 				6D0C4D0018B1E4FF00D6352F /* NewFeatureViewController.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		6D0C4D0518B2035B00D6352F /* discover */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C4D0618B2035B00D6352F /* DiscoverViewController.h */,
+				6D0C4D0718B2035B00D6352F /* DiscoverViewController.m */,
+			);
+			path = discover;
+			sourceTree = "<group>";
+		};
+		6D0C4D0818B2035B00D6352F /* home */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C4D0918B2035B00D6352F /* HomeViewController.h */,
+				6D0C4D0A18B2035B00D6352F /* HomeViewController.m */,
+				6D0C4D0B18B2035B00D6352F /* SendStatusViewController.h */,
+				6D0C4D0C18B2035B00D6352F /* SendStatusViewController.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		6D0C4D0D18B2035B00D6352F /* message */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C4D0E18B2035B00D6352F /* MessageViewController.h */,
+				6D0C4D0F18B2035B00D6352F /* MessageViewController.m */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		6D0C4D1018B2035B00D6352F /* more */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C4D1118B2035B00D6352F /* MoreViewController.h */,
+				6D0C4D1218B2035B00D6352F /* MoreViewController.m */,
+			);
+			path = more;
+			sourceTree = "<group>";
+		};
+		6D0C4D1318B2035B00D6352F /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C4D1418B2035B00D6352F /* ProfileViewController.h */,
+				6D0C4D1518B2035B00D6352F /* ProfileViewController.m */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		6D0C4D1618B2039100D6352F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C4D1718B2039200D6352F /* NSString+File.h */,
+				6D0C4D1818B2039200D6352F /* NSString+File.m */,
+				6D0C4D1918B2039200D6352F /* UIBarButtonItem+Create.h */,
+				6D0C4D1A18B2039200D6352F /* UIBarButtonItem+Create.m */,
+				6D0C4D1B18B2039200D6352F /* UIButton+Bg.h */,
+				6D0C4D1C18B2039200D6352F /* UIButton+Bg.m */,
+				6D0C4D1D18B2039200D6352F /* UIImage+Image.h */,
+				6D0C4D1E18B2039200D6352F /* UIImage+Image.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6D0C4D1F18B203A900D6352F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C4D2018B2040800D6352F /* Dock.h */,
+				6D0C4D2118B2040800D6352F /* Dock.m */,
+				6D0C4D2318B2041900D6352F /* DockItem.h */,
+				6D0C4D2418B2041900D6352F /* DockItem.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1361,13 +1473,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D0C4CFC18B1E2A900D6352F /* ZPAppDelegate.m in Sources */,
+				6D0C4CF518B1E0E600D6352F /* NSString+File.m in Sources */,
 				6D0C4CF618B1E0E600D6352F /* UIBarButtonItem+Create.m in Sources */,
-				6D0C4D0118B1E4FF00D6352F /* NewFeatureViewController.m in Sources */,
-				6D0C4D0418B1E78400D6352F /* MainViewController.m in Sources */,
 				6D0C4CF718B1E0E600D6352F /* UIButton+Bg.m in Sources */,
 				6D0C4CF818B1E0E600D6352F /* UIImage+Image.m in Sources */,
-				6D0C4CF518B1E0E600D6352F /* NSString+File.m in Sources */,
+				6D0C4D2618B204E800D6352F /* DiscoverViewController.m in Sources */,
+				6D0C4D2718B204E800D6352F /* HomeViewController.m in Sources */,
+				6D0C4D2818B204E800D6352F /* SendStatusViewController.m in Sources */,
+				6D0C4D2918B204E800D6352F /* MessageViewController.m in Sources */,
+				6D0C4D2A18B204E800D6352F /* MoreViewController.m in Sources */,
+				6D0C4D2B18B204E800D6352F /* ProfileViewController.m in Sources */,
+				6D0C4CFC18B1E2A900D6352F /* ZPAppDelegate.m in Sources */,
+				6D0C4D0118B1E4FF00D6352F /* NewFeatureViewController.m in Sources */,
+				6D0C4D2518B2041900D6352F /* DockItem.m in Sources */,
+				6D0C4D0418B1E78400D6352F /* MainViewController.m in Sources */,
+				6D0C4D2218B2040800D6352F /* Dock.m in Sources */,
 				6D0C4ADB18B1BF1C00D6352F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -256,10 +256,6 @@
 		6D0C4CE818B1C0F600D6352F /* toolbar_button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C4BF918B1C0F500D6352F /* toolbar_button_highlighted.png */; };
 		6D0C4CE918B1C0F600D6352F /* toolbar_button_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C4BFA18B1C0F500D6352F /* toolbar_button_highlighted@2x.png */; };
 		6D0C4CEA18B1C0F600D6352F /* more.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C4BFC18B1C0F600D6352F /* more.plist */; };
-		6D0C4CF518B1E0E600D6352F /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4CEE18B1E0E600D6352F /* NSString+File.m */; };
-		6D0C4CF618B1E0E600D6352F /* UIBarButtonItem+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4CF018B1E0E600D6352F /* UIBarButtonItem+Create.m */; };
-		6D0C4CF718B1E0E600D6352F /* UIButton+Bg.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4CF218B1E0E600D6352F /* UIButton+Bg.m */; };
-		6D0C4CF818B1E0E600D6352F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4CF418B1E0E600D6352F /* UIImage+Image.m */; };
 		6D0C4CFC18B1E2A900D6352F /* ZPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4CFB18B1E1FB00D6352F /* ZPAppDelegate.m */; };
 		6D0C4D0118B1E4FF00D6352F /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D0018B1E4FF00D6352F /* NewFeatureViewController.m */; };
 		6D0C4D0418B1E78400D6352F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D0318B1E78400D6352F /* MainViewController.m */; };
@@ -271,6 +267,10 @@
 		6D0C4D2918B204E800D6352F /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D0F18B2035B00D6352F /* MessageViewController.m */; };
 		6D0C4D2A18B204E800D6352F /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D1218B2035B00D6352F /* MoreViewController.m */; };
 		6D0C4D2B18B204E800D6352F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D1518B2035B00D6352F /* ProfileViewController.m */; };
+		6DDC322218B2F15600C57544 /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D1818B2039200D6352F /* NSString+File.m */; };
+		6DDC322318B2F15600C57544 /* UIBarButtonItem+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D1A18B2039200D6352F /* UIBarButtonItem+Create.m */; };
+		6DDC322418B2F15600C57544 /* UIButton+Bg.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D1C18B2039200D6352F /* UIButton+Bg.m */; };
+		6DDC322518B2F15600C57544 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C4D1E18B2039200D6352F /* UIImage+Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -292,7 +292,6 @@
 		6D0C4AD818B1BF1C00D6352F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D0C4ADA18B1BF1C00D6352F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D0C4ADC18B1BF1C00D6352F /* micrblog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "micrblog-Prefix.pch"; sourceTree = "<group>"; };
-		6D0C4AE118B1BF1D00D6352F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D0C4AE618B1BF1D00D6352F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6D0C4AEC18B1BF1D00D6352F /* micrblogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = micrblogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D0C4AED18B1BF1D00D6352F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -537,14 +536,6 @@
 		6D0C4BF918B1C0F500D6352F /* toolbar_button_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar_button_highlighted.png; sourceTree = "<group>"; };
 		6D0C4BFA18B1C0F500D6352F /* toolbar_button_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_button_highlighted@2x.png"; sourceTree = "<group>"; };
 		6D0C4BFC18B1C0F600D6352F /* more.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = more.plist; sourceTree = "<group>"; };
-		6D0C4CED18B1E0E600D6352F /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
-		6D0C4CEE18B1E0E600D6352F /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
-		6D0C4CEF18B1E0E600D6352F /* UIBarButtonItem+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Create.h"; sourceTree = "<group>"; };
-		6D0C4CF018B1E0E600D6352F /* UIBarButtonItem+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Create.m"; sourceTree = "<group>"; };
-		6D0C4CF118B1E0E600D6352F /* UIButton+Bg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bg.h"; sourceTree = "<group>"; };
-		6D0C4CF218B1E0E600D6352F /* UIButton+Bg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bg.m"; sourceTree = "<group>"; };
-		6D0C4CF318B1E0E600D6352F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
-		6D0C4CF418B1E0E600D6352F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		6D0C4CFA18B1E1FB00D6352F /* ZPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAppDelegate.h; sourceTree = "<group>"; };
 		6D0C4CFB18B1E1FB00D6352F /* ZPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAppDelegate.m; sourceTree = "<group>"; };
 		6D0C4CFF18B1E4FF00D6352F /* NewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureViewController.h; sourceTree = "<group>"; };
@@ -635,7 +626,6 @@
 			isa = PBXGroup;
 			children = (
 				6D0C4CEB18B1E0E600D6352F /* Class */,
-				6D0C4AE018B1BF1D00D6352F /* Main.storyboard */,
 				6D0C4AE618B1BF1D00D6352F /* Images.xcassets */,
 				6D0C4AD518B1BF1C00D6352F /* Supporting Files */,
 			);
@@ -1012,24 +1002,8 @@
 				6D0C4D1618B2039100D6352F /* Category */,
 				6D0C4CFD18B1E4B400D6352F /* Controller */,
 				6D0C4CF918B1E1FB00D6352F /* Other */,
-				6D0C4CEC18B1E0E600D6352F /* Category */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		6D0C4CEC18B1E0E600D6352F /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				6D0C4CED18B1E0E600D6352F /* NSString+File.h */,
-				6D0C4CEE18B1E0E600D6352F /* NSString+File.m */,
-				6D0C4CEF18B1E0E600D6352F /* UIBarButtonItem+Create.h */,
-				6D0C4CF018B1E0E600D6352F /* UIBarButtonItem+Create.m */,
-				6D0C4CF118B1E0E600D6352F /* UIButton+Bg.h */,
-				6D0C4CF218B1E0E600D6352F /* UIButton+Bg.m */,
-				6D0C4CF318B1E0E600D6352F /* UIImage+Image.h */,
-				6D0C4CF418B1E0E600D6352F /* UIImage+Image.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		6D0C4CF918B1E1FB00D6352F /* Other */ = {
@@ -1473,10 +1447,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D0C4CF518B1E0E600D6352F /* NSString+File.m in Sources */,
-				6D0C4CF618B1E0E600D6352F /* UIBarButtonItem+Create.m in Sources */,
-				6D0C4CF718B1E0E600D6352F /* UIButton+Bg.m in Sources */,
-				6D0C4CF818B1E0E600D6352F /* UIImage+Image.m in Sources */,
+				6DDC322218B2F15600C57544 /* NSString+File.m in Sources */,
+				6DDC322318B2F15600C57544 /* UIBarButtonItem+Create.m in Sources */,
+				6DDC322418B2F15600C57544 /* UIButton+Bg.m in Sources */,
+				6DDC322518B2F15600C57544 /* UIImage+Image.m in Sources */,
 				6D0C4D2618B204E800D6352F /* DiscoverViewController.m in Sources */,
 				6D0C4D2718B204E800D6352F /* HomeViewController.m in Sources */,
 				6D0C4D2818B204E800D6352F /* SendStatusViewController.m in Sources */,
@@ -1517,14 +1491,6 @@
 				6D0C4AD818B1BF1C00D6352F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6D0C4AE018B1BF1D00D6352F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D0C4AE118B1BF1D00D6352F /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		6D0C4AF618B1BF1D00D6352F /* InfoPlist.strings */ = {
@@ -1699,6 +1665,7 @@
 				6D0C4AFF18B1BF1D00D6352F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D0C4B0018B1BF1D00D6352F /* Build configuration list for PBXNativeTarget "micrblogTests" */ = {
 			isa = XCConfigurationList;
@@ -1707,6 +1674,7 @@
 				6D0C4B0218B1BF1D00D6352F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

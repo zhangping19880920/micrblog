@@ -40,8 +40,27 @@
     
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackOpaque;
     
-    [navBar setTitleTextAttributes:@{}];
+    [navBar setTitleTextAttributes:@{
+       UITextAttributeTextColor : [UIColor darkGrayColor],
+       UITextAttributeTextShadowOffset : [NSValue valueWithUIOffset:UIOffsetZero],
+       UITextAttributeFont : [UIFont systemFontOfSize:22]
+     }];
     
+    
+    UIBarButtonItem *barItem = [UIBarButtonItem appearance];
+    [barItem setBackgroundImage:[UIImage imageNamed:@"navigationbar_button_background.png"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    
+    [barItem setBackgroundImage:[UIImage imageNamed:@"navigationbar_button_background_pushed.png"] forState:UIControlStateHighlighted barMetrics:UIBarMetricsDefault];
+    
+    [barItem setBackgroundImage:[UIImage imageNamed:@"navigationbar_button_background_disable.png"] forState:UIControlStateDisabled barMetrics:UIBarMetricsDefault];
+    
+    NSDictionary *attr = @{
+        UITextAttributeTextColor :[UIColor darkGrayColor],
+        UITextAttributeTextShadowOffset : [NSValue valueWithUIOffset:UIOffsetZero],
+        UITextAttributeFont : [UIFont systemFontOfSize:13]
+    };
+    [barItem setTitleTextAttributes:attr forState:UIControlStateNormal];
+    [barItem setTitleTextAttributes:attr forState:UIControlStateHighlighted];
 }
 
 - (void)createChildViewControllers{

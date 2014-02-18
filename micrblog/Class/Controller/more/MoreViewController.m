@@ -59,7 +59,6 @@
     static NSString *CellIdentifier = @"cel";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (!cell) {
-        Loger(@"create");
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         cell.textLabel.backgroundColor = [UIColor clearColor];
         cell.textLabel.highlightedTextColor = cell.textLabel.textColor;

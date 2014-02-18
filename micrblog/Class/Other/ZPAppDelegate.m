@@ -9,6 +9,8 @@
 #import "ZPAppDelegate.h"
 #import "NewFeatureViewController.h"
 #import "MainViewController.h"
+#import "AccountTool.h"
+#import "OauthViewController.h"
 
 @implementation ZPAppDelegate
 
@@ -45,8 +47,14 @@
 - (void)startWeibo:(BOOL)shared{
     [UIApplication sharedApplication].statusBarHidden = NO;
     
-    MainViewController *main = [[MainViewController alloc] init];
-    self.window.rootViewController = main;
+    if ([AccountTool sharedAccountTool].currentAccount) {
+        MainViewController *main = [[MainViewController alloc] init];
+        self.window.rootViewController = main;
+    }else{
+        OauthViewController *oauth = [[OauthViewController alloc] init];
+        self.window.rootViewController = oauth;
+    }
+
 }
 
 @end

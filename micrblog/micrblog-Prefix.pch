@@ -19,6 +19,11 @@
 #import "NSString+File.h"
 #import "UIButton+Bg.h"
 #import "UIBarButtonItem+Create.h"
+#import "NSURLRequest+Url.h"
+
+#import "AFNetworking.h"
+#import "MBProgressHUD.h"
+#import "Weibocfg.h"
 
 // 判断是否为iPhone5
 #define iPhone5 ([UIScreen mainScreen].bounds.size.height == 568)

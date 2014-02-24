@@ -16,6 +16,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     // 0.设置标题
     self.title = @"发微博";
     

@@ -24,6 +24,8 @@
 #import "AFNetworking.h"
 #import "MBProgressHUD.h"
 #import "Weibocfg.h"
+#import "Common.h"
+#import "UIImageView+WebCache.h"
 
 // 判断是否为iPhone5
 #define iPhone5 ([UIScreen mainScreen].bounds.size.height == 568)

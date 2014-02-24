@@ -30,14 +30,24 @@
 #define kSourceFont kTimeFont
 
 // 被转发的昵称
-#define kRetweetScreenNameFont [UIFont systemFontOfSize:15]
+#define kRetweetScreenNameFont [UIFont systemFontOfSize:17]
 // 被转发的正文
 #define kRetweetContentFont kRetweetScreenNameFont
 
 
 // 头像的尺寸
-#define kIconWidth 40
-#define kIconHeight 40
+#define kIconWidth 50
+#define kIconHeight 50
+
+#define kIconSmallWidth 34
+#define kIconSmallHeight 34
+
+#define kIconBigWidth 85
+#define kIconBigHeight 85
+
+// 加V的尺寸
+#define kVerifiedWidth 18
+#define kVerifiedHeight 18
 
 // 皇冠的尺寸
 #define kMBIconWidth 14
@@ -46,6 +56,18 @@
 // cell边框的宽度
 #define kCellBorderWidth 10
 
+// tableView边框的宽度
+#define kTableBorderWidth 5
+
+// tableView第一个cell的间距
+#define kTableTopBorderWidth 5
+
+// tableView每个cell的间距
+#define kTableViewCellMargin 5
+
 // 配图的尺寸
 #define kImageWidth 120
 #define kImageHeight 120
+
+// 微博操作条的高度
+#define kStatusOptionBarHeight 40

@@ -146,7 +146,7 @@
         cell = [[StatusCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    cell.statusCellFrame = _statusCellFrames[indexPath.row];
+    cell.baseFrame = _statusCellFrames[indexPath.row];
     
     return cell;
 }

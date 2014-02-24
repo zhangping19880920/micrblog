@@ -282,6 +282,12 @@
 		6DC32BF018BB51B400CB9950 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC32BE018BB51B400CB9950 /* UIImage+MultiFormat.m */; };
 		6DC32BF118BB51B400CB9950 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC32BE218BB51B400CB9950 /* UIImage+WebP.m */; };
 		6DC32BF218BB51B400CB9950 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC32BE418BB51B400CB9950 /* UIImageView+WebCache.m */; };
+		6DC32BF518BB72BF00CB9950 /* BaseFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC32BF418BB72BF00CB9950 /* BaseFrame.m */; };
+		6DC32BF818BB73B100CB9950 /* IconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC32BF718BB73B100CB9950 /* IconView.m */; };
+		6DC32BFB18BB7C5300CB9950 /* StatusImageListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC32BFA18BB7C5300CB9950 /* StatusImageListView.m */; };
+		6DC32BFE18BB7C9A00CB9950 /* StatusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC32BFD18BB7C9A00CB9950 /* StatusImageView.m */; };
+		6DC32C0118BB806800CB9950 /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC32C0018BB806800CB9950 /* BaseCell.m */; };
+		6DC32C0418BB82C300CB9950 /* StatusOptionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC32C0318BB82C300CB9950 /* StatusOptionBar.m */; };
 		6DC7792D18B452B500663001 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7792C18B452B500663001 /* Status.m */; };
 		6DC7793018B452ED00663001 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7792F18B452ED00663001 /* User.m */; };
 		6DC7793318B4535E00663001 /* StatusTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7793218B4535E00663001 /* StatusTool.m */; };
@@ -634,6 +640,18 @@
 		6DC32BE218BB51B400CB9950 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
 		6DC32BE318BB51B400CB9950 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		6DC32BE418BB51B400CB9950 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		6DC32BF318BB72BF00CB9950 /* BaseFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFrame.h; sourceTree = "<group>"; };
+		6DC32BF418BB72BF00CB9950 /* BaseFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFrame.m; sourceTree = "<group>"; };
+		6DC32BF618BB73B100CB9950 /* IconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconView.h; sourceTree = "<group>"; };
+		6DC32BF718BB73B100CB9950 /* IconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconView.m; sourceTree = "<group>"; };
+		6DC32BF918BB7C5300CB9950 /* StatusImageListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusImageListView.h; sourceTree = "<group>"; };
+		6DC32BFA18BB7C5300CB9950 /* StatusImageListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusImageListView.m; sourceTree = "<group>"; };
+		6DC32BFC18BB7C9A00CB9950 /* StatusImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusImageView.h; sourceTree = "<group>"; };
+		6DC32BFD18BB7C9A00CB9950 /* StatusImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusImageView.m; sourceTree = "<group>"; };
+		6DC32BFF18BB806800CB9950 /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		6DC32C0018BB806800CB9950 /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		6DC32C0218BB82C300CB9950 /* StatusOptionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusOptionBar.h; sourceTree = "<group>"; };
+		6DC32C0318BB82C300CB9950 /* StatusOptionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusOptionBar.m; sourceTree = "<group>"; };
 		6DC7792B18B452B500663001 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
 		6DC7792C18B452B500663001 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
 		6DC7792E18B452ED00663001 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
@@ -1233,6 +1251,14 @@
 				6D0C4D2118B2040800D6352F /* Dock.m */,
 				6D0C4D2318B2041900D6352F /* DockItem.h */,
 				6D0C4D2418B2041900D6352F /* DockItem.m */,
+				6DC32BF618BB73B100CB9950 /* IconView.h */,
+				6DC32BF718BB73B100CB9950 /* IconView.m */,
+				6DC32BF918BB7C5300CB9950 /* StatusImageListView.h */,
+				6DC32BFA18BB7C5300CB9950 /* StatusImageListView.m */,
+				6DC32BFC18BB7C9A00CB9950 /* StatusImageView.h */,
+				6DC32BFD18BB7C9A00CB9950 /* StatusImageView.m */,
+				6DC32C0218BB82C300CB9950 /* StatusOptionBar.h */,
+				6DC32C0318BB82C300CB9950 /* StatusOptionBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1293,6 +1319,8 @@
 			children = (
 				6DD4C46418BB2FC400A4B8E4 /* StatusCell.h */,
 				6DD4C46518BB2FC400A4B8E4 /* StatusCell.m */,
+				6DC32BFF18BB806800CB9950 /* BaseCell.h */,
+				6DC32C0018BB806800CB9950 /* BaseCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -1308,6 +1336,8 @@
 				6DDC322818B3313000C57544 /* Account.m */,
 				6DC32BC418BB4B5600CB9950 /* StatusCellFrame.h */,
 				6DC32BC518BB4B5600CB9950 /* StatusCellFrame.m */,
+				6DC32BF318BB72BF00CB9950 /* BaseFrame.h */,
+				6DC32BF418BB72BF00CB9950 /* BaseFrame.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1718,19 +1748,24 @@
 				6DC7793018B452ED00663001 /* User.m in Sources */,
 				6DDC325818B35F6D00C57544 /* AFURLConnectionOperation.m in Sources */,
 				6DC7793318B4535E00663001 /* StatusTool.m in Sources */,
+				6DC32BFB18BB7C5300CB9950 /* StatusImageListView.m in Sources */,
 				6DDC325A18B35F6D00C57544 /* UIImageView+AFNetworking.m in Sources */,
+				6DC32BF518BB72BF00CB9950 /* BaseFrame.m in Sources */,
 				6DDC325418B35F6D00C57544 /* AFImageRequestOperation.m in Sources */,
 				6DC32BEF18BB51B400CB9950 /* UIImage+GIF.m in Sources */,
 				6DDC322918B331A100C57544 /* Account.m in Sources */,
 				6DC32BEB18BB51B400CB9950 /* SDWebImageDownloaderOperation.m in Sources */,
 				6DD4C46218BADCC600A4B8E4 /* MJRefreshHeaderView.m in Sources */,
+				6DC32C0118BB806800CB9950 /* BaseCell.m in Sources */,
 				6DDC325318B35F6D00C57544 /* AFHTTPRequestOperation.m in Sources */,
 				6DDC322218B2F15600C57544 /* NSString+File.m in Sources */,
 				6DDC322318B2F15600C57544 /* UIBarButtonItem+Create.m in Sources */,
+				6DC32BFE18BB7C9A00CB9950 /* StatusImageView.m in Sources */,
 				6DDC322418B2F15600C57544 /* UIButton+Bg.m in Sources */,
 				6DDC322518B2F15600C57544 /* UIImage+Image.m in Sources */,
 				6DC32BF218BB51B400CB9950 /* UIImageView+WebCache.m in Sources */,
 				6D0C4D2618B204E800D6352F /* DiscoverViewController.m in Sources */,
+				6DC32BF818BB73B100CB9950 /* IconView.m in Sources */,
 				6DDC323D18B35AE900C57544 /* NSURLRequest+Url.m in Sources */,
 				6D0C4D2718B204E800D6352F /* HomeViewController.m in Sources */,
 				6DDC325718B35F6D00C57544 /* AFPropertyListRequestOperation.m in Sources */,
@@ -1746,6 +1781,7 @@
 				6DC32BE718BB51B400CB9950 /* SDImageCache.m in Sources */,
 				6D0C4D2A18B204E800D6352F /* MoreViewController.m in Sources */,
 				6DC32BED18BB51B400CB9950 /* SDWebImagePrefetcher.m in Sources */,
+				6DC32C0418BB82C300CB9950 /* StatusOptionBar.m in Sources */,
 				6DDC325918B35F6D00C57544 /* AFXMLRequestOperation.m in Sources */,
 				6DC32BE518BB51B400CB9950 /* MKAnnotationView+WebCache.m in Sources */,
 				6D0C4D2B18B204E800D6352F /* ProfileViewController.m in Sources */,
